@@ -1,0 +1,25 @@
+{
+  "name": "VideoPlayer",
+  "version": "1.0.0",
+  "description": "Video Player using Node.js",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/shrutitanwar/VideoPlayer.git)"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Shruti Tanwar <shruti.tanwar93@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-mung": "^0.4.2",
+    "fs": "*",
+    "gridfs-stream": "^1.1.1",
+    "http": "*",
+    "jquery": "^3.1.1",
+    "mongoose": "^4.4.12",
+    "multer": "^1.2.0"
+  }
+}
